@@ -389,6 +389,34 @@ Healthcare-Operations-Analysis-Using-SQL/
 - Develop predictive LOS models using Python
 
 ---
+## How To Run
+
+1. Download or clone this repository.
+
+```sql
+git clone https://github.com/ThomasTosin/Healthcare-Operations-Analysis-Using-SQL.git
+```
+
+2. Open SQL Server Management Studio (SSMS).
+
+3. Create a new database.
+
+```sql
+CREATE DATABASE Healthcare_Analysis;
+```
+
+4. Import the healthcare discharge dataset into SQL Server.
+
+5. Open the file:
+
+```text
+Healthcare_Discharge_Analysis.sql
+```
+
+6. Execute the queries sequentially to reproduce the analysis.
+
+7. Review the screenshots and README findings to compare your results with the project outcomes.
+
 
 ## Author
 
