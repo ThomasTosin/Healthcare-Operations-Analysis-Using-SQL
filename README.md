@@ -11,6 +11,76 @@
 
 ---
 
+## Visual Insights
+
+### Dataset Overview
+Shows the structure of the healthcare discharge dataset used throughout the analysis.
+
+![Dataset Overview](Screenshot/Dataset_Overview.png)
+
+---
+
+### Top Diagnoses by Total Discharges
+Identifies the most common conditions driving hospital utilization.
+
+![Top Diagnoses](Screenshot/Top_Diagnoses.png)
+
+---
+
+### Average Charges by Hospital County
+Highlights geographic variation in healthcare costs across New York State.
+
+![Average Charges by County](Screenshot/Avg_Charges_by_county.png)
+
+---
+
+### Facilities with the Highest Average Length of Stay
+Benchmarks hospitals based on patient length of stay.
+
+![Highest LOS Facilities](Screenshot/Highest_Los_Facilities.png)
+
+---
+
+### Length of Stay by Patient Disposition
+Shows how discharge destination influences hospitalization duration.
+
+![LOS by Disposition](Screenshot/Los_by_disposition.png)
+
+---
+
+### Diagnosis and Age Group Combinations with Highest Charges
+Examines which patient populations generate the highest healthcare charges.
+
+![Diagnosis Age Charges](Screenshot/Diagnosis_age_charges.png)
+
+---
+
+### Severity of Illness vs Total Charges
+Demonstrates the strong relationship between illness severity and healthcare spending.
+
+![Severity vs Charges](Screenshot/Severity_vs_charges.png)
+
+---
+
+### Diagnoses Contributing the Highest Total Healthcare Costs
+Identifies the conditions responsible for the largest overall financial burden.
+
+![Highest Cost Diagnoses](Screenshot/Highest_cost_diagnoses.png)
+
+---
+
+### Length of Stay Outlier Detection
+Uses statistical analysis to identify facilities with unusually high LOS compared to diagnosis averages.
+
+![LOS Outlier Detection](Screenshot/Los_outlier_detection.png)
+
+---
+
+### Diagnoses with Both High LOS and High Charges
+Highlights resource-intensive diagnoses that may require operational review.
+
+![High LOS High Cost Diagnoses](Screenshot/High_los_high_cost_diagnoses.png)
+
 ## Project Overview
 
 This project analyzes over **2.6 million hospital discharge records** using SQL Server to uncover trends in healthcare utilization, patient outcomes, costs, diagnosis patterns, payer performance, and facility-level operations.
